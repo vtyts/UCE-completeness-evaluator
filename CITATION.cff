@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use this script, please cite the associated manuscript."
+title: "UCE Completeness Evaluator"
+type: software
+authors:
+  - family-names: "Tyts"
+    given-names: "Veronica"
+  - family-names: "Schwartz"
+    given-names: "Michael D."
+  - family-names: "Chérot"
+    given-names: "Frédéric"
+  - family-names: "Hoey-Chamberlain"
+    given-names: "Rochelle"
+  - family-names: "Rosas Sánchez"
+    given-names: "Carlos"
+  - family-names: "Stukel"
+    given-names: "Mark"
+  - family-names: "Schroeder"
+    given-names: "Sarah"
+  - family-names: "Konstantinov"
+    given-names: "Fedor"
+  - family-names: "Namyatova"
+    given-names: "Anna"
+  - family-names: "Forthman"
+    given-names: "Michael"
+  - family-names: "Weirauch"
+    given-names: "Christiane"
+date-released: 2026
+license: MIT
+
+preferred-citation:
+  type: article
+  title: "The first UCE-based phylogenies and divergence-time estimates for the superdiverse Mirinae (Heteroptera: Miridae): implications for data completeness and dating strategies"
+  authors:
+    - family-names: "Tyts"
+      given-names: "Veronica"
+    - family-names: "Schwartz"
+      given-names: "Michael D."
+    - family-names: "Chérot"
+      given-names: "Frédéric"
+    - family-names: "Hoey-Chamberlain"
+      given-names: "Rochelle"
+    - family-names: "Rosas Sánchez"
+      given-names: "Carlos"
+    - family-names: "Stukel"
+      given-names: "Mark"
+    - family-names: "Schroeder"
+      given-names: "Sarah"
+    - family-names: "Konstantinov"
+      given-names: "Fedor"
+    - family-names: "Namyatova"
+      given-names: "Anna"
+    - family-names: "Forthman"
+      given-names: "Michael"
+    - family-names: "Weirauch"
+      given-names: "Christiane"
+  year: 2026
+  notes: "Manuscript in preparation."
