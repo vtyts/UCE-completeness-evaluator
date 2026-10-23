@@ -4,6 +4,14 @@
 #
 #   Compare rooted phylogenetic trees inferred from datasets generated
 #   under different UCE completeness thresholds.
+# 
+# Citation:
+# Tyts, V., Schwartz, M.D., Chérot, F., Hoey-Chamberlain, R.,
+# Rosas Sánchez, C., Stukel, M., Schroeder, S., Konstantinov, F.,
+# Namyatova, A., Forthman, M. and Weirauch, C. (in preparation).
+# The first UCE-based phylogenies and divergence-time estimates for the
+# superdiverse Mirinae (Heteroptera: Miridae): implications for data
+# completeness and dating strategies.
 #
 # Input:
 #   Already-rooted trees placed in the folders below and named as:
