@@ -28,11 +28,7 @@ The script additionally contains an optional `comparePhylo()` section for examin
 
 ## Input requirements
 
-### Trees must already be rooted
-
 **All trees must be rooted before running the script.**
-
-Rooting is intentionally not included in this workflow. Users should apply the rooting procedure appropriate for their dataset before providing the trees to the script.
 
 Trees compared using Robinson–Foulds distances must also contain the same set of taxa.
 
@@ -151,8 +147,6 @@ if (!requireNamespace("BiocManager", quietly = TRUE))
 BiocManager::install("treeio")
 ```
 
-Packages only need to be installed once.
-
 ## Running the analysis
 
 1. Download or clone this repository.
@@ -268,9 +262,7 @@ We recommend examining the metrics together, particularly:
 2. changes in maximum root-to-tip tree height; and
 3. changes in node-support distributions.
 
-A useful threshold may occur within the region where topology and tree height become relatively stable with the inclusion of additional loci while node support remains sufficiently high.
-
-The appropriate threshold is expected to be dataset-specific.
+A useful threshold may occur within the region where topology and tree height become relatively stable with the inclusion of additional loci while node support remains sufficiently high. The appropriate threshold is expected to be dataset-specific.
 
 ## Optional examination of individual topology changes
 
@@ -295,7 +287,7 @@ IQ-TREE and ASTRAL topologies from the same threshold can also be compared:
 ```r
 comparePhylo(
   iq_phylo[["80"]],
-  astral_phylo[["80"]],
+  astral_phylo[["85"]],
   plot = TRUE,
   rooted = TRUE,
   cex = 0.5
@@ -309,11 +301,3 @@ If you use this workflow, please cite:
 Tyts, V., Schwartz, M.D., Chérot, F., Hoey-Chamberlain, R., Rosas Sánchez, C., Stukel, M., Schroeder, S., Konstantinov, F., Namyatova, A., Forthman, M. and Weirauch, C. (in preparation). *The first UCE-based phylogenies and divergence-time estimates for the superdiverse Mirinae (Heteroptera: Miridae): implications for data completeness and dating strategies*.
 
 Citation information is also provided in `CITATION.cff`.
-
-## License
-
-This repository is distributed under the MIT License. See `LICENSE` for details.
-
-## Contact
-
-Questions, suggestions, and reports of problems with the workflow are welcome through the GitHub repository's Issues page.
