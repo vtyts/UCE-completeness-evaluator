@@ -160,6 +160,8 @@ In an interactive R session, the script displays the detected thresholds and fil
 
 Threshold values are obtained automatically from filenames, so **the script does not need to be edited when a different number of completeness thresholds is analyzed**.
 
+Overall, the script is thoroughly annotated, allowing you to jump straight to it.
+
 ## User settings
 
 A small number of settings can be changed near the beginning of the script.
