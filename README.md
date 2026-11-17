@@ -2,7 +2,7 @@
 
 An R workflow for comparing phylogenetic trees inferred from datasets generated under different ultraconserved element (UCE) completeness thresholds.
 
-The workflow was developed to provide a simple, evidence-based way to evaluate completeness-threshold selection by examining how **tree topology, branch lengths, and node support change across thresholds**. Rather than selecting a completeness threshold a priori, users can compare a series of thresholds and identify the region in which these properties become relatively stable.
+The workflow was developed to provide a simple, evidence-based way to evaluate completeness-threshold selection by examining how **tree topology, branch lengths, and node support change across thresholds**. Rather than selecting a completeness threshold a priori, users can compare a series of thresholds and identify the region in which these properties become relatively stable. While initially designed for UCE-based analyses, it can be used for any molecular markers if completeness thresholds are applied.
 
 The script was developed for the analyses presented in Tyts et al. (in preparation).
 
